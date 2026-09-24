@@ -17,11 +17,6 @@ A tap is a Homebrew package repository; formulae and casks are package types.
 This tap provides a formula for the Rootform CLI. Homebrew manages its updates
 and uninstallation like other formulae.
 
-Rootform's macOS binary is not Apple notarized. Installing this formula uses
-Homebrew's formula trust model; it does not require a paid Apple Developer
-Program membership. Review the formula and the release before installing
-software from this tap.
-
 To remove Rootform:
 
 ```sh
