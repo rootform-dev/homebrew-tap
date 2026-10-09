@@ -1,10 +1,8 @@
 # Rootform Homebrew tap
 
-This tap will provide the Rootform CLI formula for macOS. No Rootform release
-is available through it yet: the formula returns with the first published
-Rootform release.
+This tap provides the Rootform CLI formula for macOS.
 
-Once it is available, install and remove Rootform with:
+Install and remove Rootform with:
 
 ```sh
 brew install rootform-dev/tap/rootform
