@@ -1,19 +1,19 @@
 class Rootform < Formula
   desc "Architecture compiler and policy CLI"
   homepage "https://rootform.dev"
-  version "0.2.1"
+  version "0.3.0"
   license "Elastic-2.0"
 
   depends_on macos: :monterey
 
   on_arm do
-    url "https://github.com/rootform-dev/rootform/releases/download/v0.2.1/rootform_#{version}_darwin_arm64.tar.gz"
-    sha256 "2fc567e70e06b75a1b0d4f916fe8148f0bf5f0d37f447e24749535ca3dc3546e"
+    url "https://github.com/rootform-dev/rootform/releases/download/v0.3.0/rootform_#{version}_darwin_arm64.tar.gz"
+    sha256 "2e59aee21d8660cf7a7fb55b229543961aad3bfa79fdbe194e4036f38eb97153"
   end
 
   on_intel do
-    url "https://github.com/rootform-dev/rootform/releases/download/v0.2.1/rootform_#{version}_darwin_amd64.tar.gz"
-    sha256 "4f6689664c55813e870f4dd3a92e35d7337a79039e9035c762bc8171e9a7d3d7"
+    url "https://github.com/rootform-dev/rootform/releases/download/v0.3.0/rootform_#{version}_darwin_amd64.tar.gz"
+    sha256 "b82b1c703d177f0e05cd631fad7ada44f4fabed168658a5a02a4e5de04051f15"
   end
 
   def install
